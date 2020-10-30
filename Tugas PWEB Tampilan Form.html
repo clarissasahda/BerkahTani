@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BerkahTani - Daftar</title>
+        <style>
+            h1{
+               text-align: center;
+               display: block;
+               padding: 35px;
+               background-color: #77b255;
+               margin: 0; 
+            }
+            img{
+                width: 10%;
+                height: 100%;
+                margin-top: -10px;
+                margin-left: auto;
+                padding-left: 10px;
+                float: left;  
+            }
+            nav{
+                display: block;
+                margin: 0;
+                height: 40px;
+                padding: 10px 30px;
+                background-color: #FFDE59;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                float:right;
+                padding-top: 10px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .cari{
+                margin: 0;
+                float:left;
+                padding-top: 10px;
+                padding-left: 5%;
+            }
+            li{
+                display: inline;
+                margin:0;
+                text-align: center;
+                width: 100%;
+                padding: 0px 10px;
+            }
+            form{
+                text-align: justify;
+                font-size: medium;
+                display: block;
+                margin: 0px 400px 75px 400px;
+                padding: 20px 170px;
+                background-color: #ffffff;
+            }
+            body{
+                background-image: url("background.png");
+            }
+            h2{
+                text-align: center;
+                display: block;
+                padding: 10px;
+                background-color: #77b255;
+                margin: 25px 500px 0px 500px;
+            }           
+        </style>
+    </head>
+    <body>
+        <img src="BerkahTani.png" alt="">
+        <h1>Mari Berbagi Ilmu Tani</h1>
+        <nav>
+            <ul>
+                <li><a href="#" style="color:#000000; text-decoration: none;"><b>Beranda</b></a></li>
+                <li><a href="#" style="color:#000000; text-decoration: none;"><b>Topik Tani</b></a></li>
+                <li><a href="#" style="color:#000000; text-decoration: none;"><b>Kiat Tani</b></a></li>
+                <li><a href="#" style="color:#000000; text-decoration: none;"><b>Forum Diskusi</b></a></li>
+                <li><a href="#" style="color:#999900; text-decoration: none;"><b>Daftar</b></a></li>
+            </ul>
+            <div class="cari">
+                <input type="text" placeholder="Ketikkan sesuatu ...">
+                <input type="button" value="Cari">
+            </div>
+        </nav>
+        
+        <br>
+        <h2>Buat Akun</h2>
+        <form>
+            <label for="email">
+                Email <br>
+                <input type="email" placeholder="Masukkan Email" id="email">
+            </label>
+            <br>
+            <br>
+            <label for="id">
+                ID <br>
+                <input type="text" placeholder="Masukkan ID" id="id">
+            </label>
+            <br>
+            <br>
+            <label for="namaL">
+                Nama Lengkap <br> 
+                <input type="text" placeholder="Masukkan Nama Lengkap" id="namaL">
+            </label>
+            <br>
+            <br>
+            <label for="Ksandi"> 
+                Kata Sandi <br>
+                <input type="text" placeholder="Masukkan Kata Sandi" id="Ksandi">
+            </label>
+            <br>
+            <br>
+            <label for="konfirmasi"> 
+                Konfirmasi Kata Sandi <br> 
+                <input type="text" placeholder="Konfirmasi Kata Sandi" id="konfirmasi">
+            </label>
+            <br>
+            <br>
+            <label for="alamat">
+                Alamat <br>
+                <input type="text" placeholder="Masukkan Alamat" id="alamat">
+            </label>
+            <br>
+            <br>
+            <label>
+                Jenis Kelamin <br>
+                <select>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <input type="button" value="Daftar">
+        </form>
+    </body>
+</html>
