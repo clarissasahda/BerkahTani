@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BerkahTani - Daftar</title>
+        <style>
+            *{
+            margin:0px;
+            padding:0px;
+            }
+            h1{
+               text-align: center;
+               display: block;
+               padding: 35px;
+               background-color: #77b255;
+               margin: 0; 
+            }
+            img{
+                width: 10%;
+                height: 100%;
+                margin-top: -10px;
+                margin-left: auto;
+                padding-left: 10px;
+                float: left;  
+            }
+            nav{
+                display: block;
+                margin: 0;
+                height: 40px;
+                padding: 10px 30px;
+                background-color: #FFDE59;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                float:right;
+                padding-top: 10px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .cari{
+                margin: 0;
+                float:left;
+                padding-top: 10px;
+                padding-left: 5%;
+            }
+            .button1{
+                background:#77b255 ;
+                color: white;
+                border-radius: 5px;
+                width: 50px;
+                height: 20px;
+                border: none;
+                box-shadow: 1px 2px 8px rgb(66, 66, 66);
+            }
+            li{
+                display: inline;
+                margin:0;
+                text-align: center;
+                width: 100%;
+                padding: 0px 10px;
+            }
+            form{
+                text-align: justify;
+                font-size: medium;
+                display: block;
+                margin: 0px 400px 75px 400px;
+                padding: 20px 170px;
+                background-color: #ffffff;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .button2{
+                border-radius: 5px;
+                background: #77b255;
+                width: 50px;
+                height: 20px;
+            }
+            body{
+                background-image: url("Gambar1.png");
+            }
+            h2{
+                text-align: center;
+                display: block;
+                padding: 10px;
+                background-color: #77b255;
+                margin: 25px 500px 0px 500px;
+                border-radius: 5px;
+            }
+            #contener{
+            min-height: 50%;
+            position: relative;
+            /* margin-top: 110px; */
+            }
+            .footer{
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            background: #77b255;
+            color: black;
+            position: static;
+            bottom: 0px;
+            }           
+        </style>
+    </head>
+    <body>
+        <img src="BerkahTani.png" alt="">
+        <h1>Mari Berbagi Ilmu Tani</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="default.asp" style="color:#000000; text-decoration: none;"><b>Beranda</b></a>
+                </li>
+                <li>
+                    <a href="default.asp" style="color:#000000; text-decoration: none;"><b>Topik Tani</b></a>
+                </li>
+                <li>
+                    <a href="default.asp" style="color:#000000; text-decoration: none;"><b>Kiat Praktis</b></a>
+                </li>
+                <li>
+                    <a href="default.asp" style="color:#000000; text-decoration: none;"><b>Forum Diskusi</b></a>
+                </li>
+                <li>
+                    <a href="default.asp" style="color: #000000; text-decoration: none;"><b>Masuk</b></a>
+                </li>
+                <li>
+                    <a href="default.asp" style="color:#999900; text-decoration: none;"><b>Daftar</b></a>
+                </li>
+            </ul>
+            <div class="cari">
+                <input type="text" placeholder="Ketikkan sesuatu ...">
+                <td><a href="#"><input type="button" value="Cari" class="button1"></a></td>
+            </div>
+        </nav>
+        
+        <br>
+        <h2>Buat Akun</h2>
+        <form>
+            <label for="email">
+                Email <br>
+                <input type="email" placeholder="Masukkan Email" id="email">
+            </label>
+            <br>
+            <br>
+            <label for="id">
+                ID <br>
+                <input type="text" placeholder="Masukkan ID" id="id">
+            </label>
+            <br>
+            <br>
+            <label for="namaL">
+                Nama Lengkap <br> 
+                <input type="text" placeholder="Masukkan Nama Lengkap" id="namaL">
+            </label>
+            <br>
+            <br>
+            <label for="Ksandi"> 
+                Kata Sandi <br>
+                <input type="text" placeholder="Masukkan Kata Sandi" id="Ksandi">
+            </label>
+            <br>
+            <br>
+            <label for="konfirmasi"> 
+                Konfirmasi Kata Sandi <br> 
+                <input type="text" placeholder="Konfirmasi Kata Sandi" id="konfirmasi">
+            </label>
+            <br>
+            <br>
+            <label for="alamat">
+                Alamat <br>
+                <input type="text" placeholder="Masukkan Alamat" id="alamat">
+            </label>
+            <br>
+            <br>
+            <label>
+                Jenis Kelamin <br>
+                <select>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <input class="button2" type="button" value="Daftar">
+        </form>
+        <div id="contener">
+            <div class="footer">Copyright 2020 'Berkah Tani'</div>
+        </div>
+    </body>
+</html>
