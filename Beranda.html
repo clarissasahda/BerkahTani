@@ -4,122 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berkah Tani - Beranda</title>
-    <style>
-        *{
-            margin:0px;
-            padding:0px;
-        }
-        h1{
-            text-align:center;
-            display: block;
-            padding: 35px;
-            background-color: #77b255;
-            margin:0;
-        }
-        img {
-            width: 8%;
-            height: 100px;
-            padding-left: 25px;
-            margin-top: 5px;
-            margin-left: auto;
-            float: left;
-        }
-        nav{
-            display: block;
-            margin: 0;
-            height: 40px;
-            padding: 10px 30px;
-            background-color: #FFDE59;
-        }
-        ul{
-            list-style-type: none;
-            margin: 0;
-            float:right;
-            padding-top: 10px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        li{
-            display: inline;
-            margin:0;
-            text-align: center;
-            width: 100%;
-            padding: 0px 10px;
-        }
-        body {
-            background: url("Beranda fix.png") no-repeat fixed center;
-            background-attachment: fixed;
-            background-size: 100% 90%;
-            background-position-y: 100px;
-        }
-        .search{
-            width: 40%;
-            height: 180px;
-            margin: 10px ;
-            padding-left: 15%;
-        }
-        #contener{
-            min-height: 50%;
-            position: relative;
-            /* margin-top: 110px; */
-        }
-        .footer{
-            text-align: center;
-            font-size: 15px;
-            font-family: 'Courier New', Courier, monospace;
-            width: 100%;
-            height: 50px;
-            padding-left: 10px;
-            line-height: 50px;
-            background: #77b255;
-            color: black;
-            position: fixed;
-            bottom: 0px;
-        }
-        .button{
-            background:#77b255 ;
-            color: white;
-            border-radius: 5px;
-            width: 10%;
-            height: 20px;
-            border: none;
-            box-shadow: 1px 2px 8px rgb(66, 66, 66);
-        }
-        .fb{
-            position: relative;
-            margin:auto;
-            width: 30px;
-            height: 30px;
-            padding-left:0px;
-        }
-        .ig{
-            position: relative;
-            margin:auto;
-            width: 30px;
-            height: 30px;
-            padding-left:0px;
-        }
-        .twt{
-            position: relative;
-            margin:auto;
-            width: 30px;
-            height: 30px;
-            padding-left:0px;
-        }
-        .gmail{
-            position: relative;
-            margin:auto;
-            width: 30px;
-            height: 30px;
-            padding-left:0px;
-        }
-        .wa{
-            position: relative;
-            margin:auto;
-            width: 30px;
-            height: 30px;
-            padding-left:0px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="cssberanda.css">
 </head>
 <body>
     <img src="BerkahTani.png" alt="">
@@ -127,27 +12,33 @@
     <nav>
         <ul>
             <li><a href="Beranda.html" style="color:#999900; text-decoration: none;"><b>Beranda</b></a></li>
+<<<<<<< HEAD
             <li><a href="default.asp" style="color:black; text-decoration: none;"><b>Topik Tani</b></a></li>
             <li><a href="default.asp" style="color:black; text-decoration: none;"><b>Kiat Praktis</b></a></li>
             <li><a href="default.asp" style="color:black; text-decoration: none;"><b>Forum Diskusi</b></a></li>
             <li><a href="Login.html" style="color:black; text-decoration: none;"><b>Masuk</b></a></li>
             <li><a href="DaftarAkun.html" style="color:black; text-decoration: none;"><b>Daftar</b></a></li>
+=======
+            <li><a href="Topiktani.html" style="color:black; text-decoration: none;"><b>Topik Tani</b></a></li>
+            <li><a href="default.asp" style="color:black; text-decoration: none;"><b>Kiat Tani</b></a></li>
+            <li><a href="default.asp" style="color:black; text-decoration: none;"><b>Tentang Kami</b></a></li>
+            <li><a href="Login.html" style="color:black; text-decoration: none;"><b>Masuk</b></a></li>
+>>>>>>> e58e204... Update
         </ul>
         <div class="search">
-            <input type="text" placeholder="Ketikkan sesuatu...">
-            <td><a href="#"><input class="button"  type="submit" name="cari" value="Cari"></a></td>
+        <input type="text" placeholder="Ketikkan sesuatu...">
+        <td><a href="#"><input class="button"  type="submit" name="cari" value="Cari"></a></td>
         </div>
     </nav>
-    <div>
-        <a href=""><img class="fb" src="FB.jpg" alt=""></a>
-        <a href=""><img class="ig" src="ig.jpg" alt=""></a>
-        <a href=""><img class="twt" src="Twt.jpg" alt=""></a> 
-        <a href=""><img class="gmail" src="gmail.jpg" alt=""></a>     
-        <a href=""><img class="wa" src="wa.jpg" alt=""></a>  
+    <div class="Kontak">
+        <a href="https://www.facebook.com/" class="fb"><img src="FB.jpg"/></a>
+        <a href="https://twitter.com/" class="twt"><img src="Twt.jpg"/></a>
+        <a href="https://www.google.com/?hl=id" class="google"><img src="google.png"/></a>
+        <a href="https://www.instagram.com/" class="ig"><img src="ig.jpg"/></a>
+        <a href="https://www.google.com/intl/id/gmail/about/" class="gmail"><img src="gmail.jpg"/></a>
     </div>
-    <div id="contener">
-        <div class="footer">Copyright 2020 'Berkah Tani'</div>
-    </div>
-    </br>
+    <footer>
+        <p class="footer2">2020 © Berkah Tani. All Rights R eserved</p>
+    </footer>
 </body>
 </html>
