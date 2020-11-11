@@ -1,3 +1,4 @@
+/* Tampilan atas */
 *{
     margin:0px;
     padding:0px;
@@ -44,7 +45,6 @@ ul{
     width: 50px;
     height: 20px;
     border: none;
-    box-shadow: 1px 2px 8px rgb(66, 66, 66);
 }
 li{
     display: inline;
@@ -53,6 +53,16 @@ li{
     width: 100%;
     padding: 0px 10px;
 }
+body {
+    background: url("Gambar1.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+/* Tampilan Daftar */
 form{
     text-align: justify;
     font-size: medium;
@@ -67,14 +77,6 @@ form{
     background: #77b255;
     width: 50px;
     height: 20px;
-}
-body {
-    background: url("Gambar1.png");
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
 }
 h2{
     text-align: center;

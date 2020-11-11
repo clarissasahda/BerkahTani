@@ -1,3 +1,4 @@
+/* Tampilan atas */
 *{
     margin:0px;
     padding:0px;
@@ -46,21 +47,6 @@ body {
 	background-attachment: fixed;
 	text-align: center;
 }
-.masuk{
-	text-align: left;
-	background-color: #FFDE59;
-	width: 30%;
-	height: auto;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-left: 35%;
-	margin-top: 0%; 
-}
-table{
-    margin: auto;
-    border-spacing: 40px 20px;
-    padding-top: 5%;
-}
 .search{
     margin: 0;
     float:left;
@@ -79,6 +65,23 @@ h2{
     position: relative;
     left: 10%;
 }  
+
+/* Tampilan Login */
+.masuk{
+	text-align: left;
+	background-color: #FFDE59;
+	width: 30%;
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 35%;
+	margin-top: 0%; 
+}
+table{
+    margin: auto;
+    border-spacing: 40px 20px;
+    padding-top: 5%;
+}
 tr{
     font-size: 14px;
 }
@@ -89,7 +92,7 @@ tr{
     width: 50px;
     height: 20px;
     border: none;
-    box-shadow: 1px 2px 8px rgb(66, 66, 66);
+
 }
 .tombol{
     border-radius: 5px;

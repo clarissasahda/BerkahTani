@@ -54,7 +54,6 @@ body {
     width: 50px;
     height: 20px;
     border: none;
-    box-shadow: 1px 2px 8px rgb(66, 66, 66);
 }
 .search{
     margin: 0;
@@ -67,6 +66,7 @@ h2{
 	text-align: center;
     color: black;
 }
+/* Cuplikan berita 1 */
 .berita1{
 	margin-left: 26%;
 	width: 50%;
@@ -87,18 +87,8 @@ h2{
 	text-align: justify;
 	color: black;
 }
-.popup1{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
-}
 
-/*KOTAK BERITA KEDUA*/
+/* Cuplikan Berita 2 */
 .berita2{
 	margin-left: 26%;
 	width: 50%;
@@ -120,16 +110,8 @@ h2{
 	text-align: justify;
 	color: black;
 }
-.popup2{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
-}
+
+/* Kolom Komentar */
 .komentar{
 	width: 50%;
 	height: auto;
@@ -158,31 +140,8 @@ h2{
     margin-left: 5%;
     background-color: #FFDE59;
 }
-.popcontan{
-    background-color: white;
-}
-.container{
-    background-color: white;
-    margin :5% auto 15% auto;
-    width: 60%;
-}
-.animated {
-    animation: zoomin 0.5s;
-}
-.close {
-    font-weight: bold;
-    cursor: pointer;
-    text-align: right;
-    padding: 5px;
-    padding-right: 15px;
-}
-.content {
-    padding: 10px;
-}
-.content img{
-	width: 30%;
 
-}
+/* Footer */
 footer{
 	background: #FFDE59;
 	width: 100%;
@@ -194,12 +153,4 @@ footer{
 	padding-top: 5px;
 	font-size: 18px;
 	color: black;
-}
-@keyframes zoomin {
-    from{
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
 }
