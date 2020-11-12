@@ -11,11 +11,11 @@ h1{
     margin:0;
 }
 img {
-    width: 8%;
-    height: 100px;
-    padding-left: 25px;
-    margin-top: 5px;
+    width: 9.3%;
+    height: 93%;
+    margin-top: -10px;
     margin-left: auto;
+    padding-left: 10px;
     float: left;
 }
 nav{
@@ -51,10 +51,9 @@ body {
     margin: 0;
     float:left;
     padding-top: 10px;
-    padding-left: 15%;
+    padding-left: 6%;
 }
 h2{
-    text-align: center;
     display: block;
     padding: 5px;
     background-color: #77b255;
@@ -62,8 +61,7 @@ h2{
     border-radius: 10px;
     margin-top: 5%;
     width: 15%;
-    position: relative;
-    left: 10%;
+    margin-left: 42.5%;
 }  
 
 /* Tampilan Login */
