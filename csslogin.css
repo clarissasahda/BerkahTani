@@ -1,0 +1,105 @@
+/* Tampilan atas */
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align:center;
+    display: block;
+    padding: 35px;
+    background-color: #77b255;
+    margin:0;
+}
+img {
+    width: 9.3%;
+    height: 93%;
+    margin-top: -10px;
+    margin-left: auto;
+    padding-left: 10px;
+    float: left;
+}
+nav{
+    display: block;
+    margin: 0;
+    height: 40px;
+    padding: 10px 30px;
+    background-color: #FFDE59;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    float:right;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    display: inline;
+    margin:0;
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+body {
+    background: url("Gambar1.png") no-repeat fixed center;
+    background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+}
+.search{
+    margin: 0;
+    float:left;
+    padding-top: 10px;
+    padding-left: 6%;
+}
+h2{
+    display: block;
+    padding: 5px;
+    background-color: #77b255;
+    margin: 30px 500px 0px 500px;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 15%;
+    margin-left: 42.5%;
+}  
+
+/* Tampilan Login */
+.masuk{
+	text-align: left;
+	background-color: #FFDE59;
+	width: 30%;
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 35%;
+	margin-top: 0%; 
+}
+table{
+    margin: auto;
+    border-spacing: 40px 20px;
+    padding-top: 5%;
+}
+tr{
+    font-size: 14px;
+}
+.button{
+    background:#77b255 ;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    border: none;
+
+}
+.tombol{
+    border-radius: 5px;
+    background:#77b255 ;
+    font-size: 8pt;
+    width: 50px;
+    height: 20px;
+    position: static;
+}
+.Daftar{
+    text-align: center;
+}

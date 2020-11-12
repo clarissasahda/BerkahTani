@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align:center;
+    display: block;
+    padding: 35px;
+    background-color: #77b255;
+    margin:0;
+}
+img {
+    width: 9.3%;
+    height: 93%;
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-left: auto;
+    float: left;
+}
+nav{
+    display: block;
+    margin: 0;
+    height: 40px;
+    padding: 10px 30px;
+    background-color: #FFDE59;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    float:right;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    display: inline;
+    margin:0;
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+body {
+	background-image: url('Beranda fix.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    text-align: center;
+    overflow-x: hidden;
+}
+.button{
+    background:#77b255 ;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    border: none;
+}
+.search{
+    margin: 0;
+    float:left;
+    padding-top: 10px;
+    padding-left: 6%;
+}
+.Kontak{
+    background: #4a7e1f;
+    width: 100%;
+    height: 60px;
+    margin-top: 32%;
+    padding-left: 40%;
+}
+.Kontak a img{
+    padding-top: 15px;
+    height: 30px;
+    width: 30px;
+}
+.fb{
+    position: relative;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    padding-left:0px;
+}
+.ig{
+    position: relative;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    padding-left:0px;
+}
+.twt{
+    position: relative;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    padding-left:0px;
+}
+.google{
+    position: relative;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    margin-left: 0%;
+}
+.yt{
+    position: relative;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    padding-left:0px;
+}
+footer{
+	background: #FFDE59;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+.footer2{
+	padding-top: 5px;
+	font-size: 18px;
+	color: black;
+}
+
+
