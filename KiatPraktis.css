@@ -85,7 +85,7 @@ footer{
 .row {
     margin: 0;
 }
-.row:after {
+.row::after {
     content: "";
     display: table;
     clear: both;
