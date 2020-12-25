@@ -79,8 +79,6 @@ footer{
     margin-bottom: 10px;
     margin-left: 50px;
     margin-right: 50px;
-    width: 307,5px;
-    height: 222,5px;
 }
 .row {
     margin: 0;
@@ -91,7 +89,6 @@ footer{
     clear: both;
 }
 .card {
-    box-shadow: 0 4px 8px 0 #000000(0, 0, 0, 0.2);
     padding: 25px;
     text-align: center;
     background-color: #ffffff;
