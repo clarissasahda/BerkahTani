@@ -7,26 +7,26 @@ h1{
     display: block;
     padding: 35px;
     background-color: #77b255;
-    margin:0;
+    /* margin:0; asilnya tidak berpengaruh */
 }
 img {
     width: 9.3%;
     height: 93%;
     padding-left: 10px;
     margin-top: -10px;
-    margin-left: auto;
+    /* margin-left: auto; */
     float: left;
 }
 nav{
     display: block;
     margin: 0;
     height: 40px;
-    padding: 10px 30px;
+    padding:10px 30px;
     background-color: #FFDE59;
 }
 ul{
-    list-style-type: none;
-    margin: 0;
+    /* list-style-type: none; */
+    /* margin: 0; */
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -34,17 +34,17 @@ ul{
 li{
     display: inline;
     margin:0;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     padding: 0px 10px;
 }
 body {
-	background-image: url('Beranda fix.png');
+	background-image: url('../gambar/Beranda\ fix.png');
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-    text-align: center;
+    /* text-align: center; */
     overflow-x: hidden;
 }
 .button{
@@ -66,14 +66,14 @@ body {
     width: 100%;
     height: 60px;
     margin-top: 32%;
-    padding-left: 40%;
+    padding-left: 43%;
 }
 .Kontak a img{
     padding-top: 15px;
     height: 30px;
     width: 30px;
 }
-.fb{
+/* .fb{
     position: relative;
     margin:auto;
     width: 30px;
@@ -107,7 +107,7 @@ body {
     width: 30px;
     height: 30px;
     padding-left:0px;
-}
+} */
 footer{
 	background: #FFDE59;
 	width: 100%;
