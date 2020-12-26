@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berkah Tani - Masuk</title>
-    <link rel="stylesheet" type="text/css" href="../css/csslogin.css">
+    <link rel="stylesheet" type="text/css" href="csslogin.css">
 </head>
 <body>
-    <img src="../gambar/BerkahTani.png" alt="">
+    <img src="BerkahTani.png" alt="">
     <h1>Mari Berbagi Ilmu Tani</h1>
     <nav>
         <ul>
-            <li><a href="Beranda.html" style="color:black; text-decoration: none;"><b>Beranda</b></a></li>
+            <li><a href="index.html" style="color:black; text-decoration: none;"><b>Beranda</b></a></li>
             <li><a href="Topiktani.html" style="color:black; text-decoration: none;"><b>Topik Tani</b></a></li>
             <li><a href="KiatPraktis.html" style="color:black; text-decoration: none;"><b>Kiat Praktis</b></a></li>
             <li><a href="TentangKami.html" style="color:black; text-decoration: none;"><b>Tentang Kami</b></a></li>
@@ -29,14 +29,14 @@
             <table>
                 <tr>
                     <td><label id="email" for="email">Email</label></td>
-                    <td><input type="text" placeholder="Id Email"></td>
+                    <td><input type="email" placeholder="Email" id="email1"></td>
                 </tr>
                 <tr>
                     <td><label id="password" for="password">Password</label></td>
-                    <td><input type="password" placeholder="Kata Sandi"></td>
+                    <td><input type="password" placeholder="Kata Sandi" id="Ksandi"></td>
                 </tr>
                 <tr>
-                    <td><a href="Beranda.html"><input class="tombol" type="submit" name="masuk" value="Masuk"></a></td>
+                    <td><input class="tombol" type="button" name="masuk" value="Masuk" onclick="popup()"></td>
                 </tr>
             </table>
             <div class="Daftar">
@@ -45,13 +45,6 @@
         </div>
     </div>
     </br>
+    <script src="Login.js"></script>
 </body>
 </html>
-<!-- <table>
-:	untuk membuat tabel kaya di MS.excel tapi cara membuat tabelnya menggunakan bahasa html dan 
-di dalam script table terdiri 3 tag yaitu : th, td, dan tr.
-<td>	:	kepanjangan dari table data, digunakan untuk membuat isi dari th atau baris atau kalau di MS.
-    excel seperti cell.
-<th>	:	kepanjangan dari table heading, digunakan untuk membuat judul sebuah table seperti No, dan nama. 
-    biasanya di tanda dengan hurufnya menjadi bold seperti contoh table di atas.
-<tr>	:	kepanjangan dari table row, digunakan untuk mendefiniskan baris pada tabel -->

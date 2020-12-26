@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 *{
     margin:0px;
     padding:0px;
@@ -40,7 +39,7 @@ li{
     padding: 0px 10px;
 }
 body {
-	background-image: url('../gambar/Gambar1.png');
+	background-image: url('Gambar1.png');
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -67,7 +66,6 @@ h2{
     margin-top: 8%;
 	text-align: center;
     color: black;
-    font-family: 'Crimson Text', serif;
 }
 /* Cuplikan berita 1 */
 .berita1{
@@ -88,19 +86,9 @@ h2{
 }
 .n1 .text1 {
 	text-align: justify;
-    color: black;
-    font-family: 'Crimson Text', serif;
+	color: black;
 }
-.popup1{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
-}
+
 /* Cuplikan Berita 2 */
 .berita2{
 	margin-left: 26%;
@@ -121,18 +109,7 @@ h2{
 }
 .n2 .text2 {
 	text-align: justify;
-    color: black;
-    font-family: 'Crimson Text', serif;
-}
-.popup2{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
+	color: black;
 }
 
 /* Kolom Komentar */
@@ -178,61 +155,3 @@ footer{
 	font-size: 18px;
 	color: black;
 }
-
-/* JS */
-.popcontan{
-    background-color:  #FFDE59;
-}
-.container{
-    background-color:  white;
-    margin :5% auto 15% auto;
-    width: 60%;
-}
-@keyframes zoomin {
-    from{
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-.animated {
-    animation: zoomin 0.5s;
-}
-.close {
-    font-weight: bold;
-    cursor: pointer;
-    text-align: right;
-    padding: 5px;
-    padding-right: 15px;
-}
-.content {
-    padding: 10px;
-}
-.content img{
-    width: 30%;
-    padding-left: 37%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
-

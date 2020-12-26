@@ -3,15 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>BerkahTani - Daftar</title>
-        <link rel="stylesheet" type="text/css" href="../css/cssdaftar.css">
+        <link rel="stylesheet" type="text/css" href="cssdaftar.css">
     </head>
     <body>
-        <img src="../gambar/BerkahTani.png" alt="">
+        <img src="BerkahTani.png" alt="">
         <h1>Mari Berbagi Ilmu Tani</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="Beranda.html" style="color:#000000; text-decoration: none;"><b>Beranda</b></a>
+                    <a href="index.html" style="color:#000000; text-decoration: none;"><b>Beranda</b></a>
                 </li>
                 <li>
                     <a href="Topiktani.html" style="color:#000000; text-decoration: none;"><b>Topik Tani</b></a>
@@ -37,50 +37,52 @@
         <form>
             <label for="email">
                 Email <br>
-                <input type="email" placeholder="Masukkan Email" id="email">
+                <input type="email" placeholder="Masukkan Email" id="email" required>
             </label>
             <br>
             <br>
             <label for="id">
-                ID <br>
-                <input type="text" placeholder="Masukkan ID" id="id">
+                Username <br>
+                <input type="text" placeholder="Masukkan Username" id="Username" required>
             </label>
             <br>
             <br>
             <label for="namaL">
                 Nama Lengkap <br> 
-                <input type="text" placeholder="Masukkan Nama Lengkap" id="namaL">
+                <input type="text" placeholder="Masukkan Nama Lengkap" id="namaL" required>
             </label>
             <br>
             <br>
             <label for="Ksandi"> 
                 Kata Sandi <br>
-                <input type="text" placeholder="Masukkan Kata Sandi" id="Ksandi">
+                <input type="text" placeholder="Masukkan Kata Sandi" id="Ksandi" required>
             </label>
             <br>
             <br>
             <label for="konfirmasi"> 
                 Konfirmasi Kata Sandi <br> 
-                <input type="text" placeholder="Konfirmasi Kata Sandi" id="konfirmasi">
+                <input type="text" placeholder="Konfirmasi Kata Sandi" id="konfirmasi" required>
             </label>
             <br>
             <br>
             <label for="alamat">
                 Alamat <br>
-                <input type="text" placeholder="Masukkan Alamat" id="alamat">
+                <input type="text" placeholder="Masukkan Alamat" id="alamat" required>
             </label>
             <br>
             <br>
             <label>
                 Jenis Kelamin <br>
-                <select>
+                <select id="jenisK">
+                    <option></option>
                     <option>Laki-laki</option>
                     <option>Perempuan</option>
                 </select>
             </label>
             <br>
             <br>
-            <a a href="Beranda.html"><input class="button2" type="button" value="Daftar"></a>
+            <input class="button2" type="button" value="Daftar" onclick="tampilkan()">
         </form>
+        <script src="Daftar.js"></script>
     </body>
 </html>

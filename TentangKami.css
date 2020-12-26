@@ -7,26 +7,26 @@ h1{
     display: block;
     padding: 35px;
     background-color: #77b255;
-    /* margin:0; asilnya tidak berpengaruh */
+    margin:0;
 }
 img {
     width: 9.3%;
     height: 93%;
-    padding-left: 10px;
     margin-top: -10px;
-    /* margin-left: auto; */
+    margin-left: auto;
+    padding-left: 10px;
     float: left;
 }
 nav{
     display: block;
     margin: 0;
     height: 40px;
-    padding:10px 30px;
+    padding: 10px 30px;
     background-color: #FFDE59;
 }
 ul{
-    /* list-style-type: none; */
-    /* margin: 0; */
+    list-style-type: none;
+    margin: 0;
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -34,18 +34,14 @@ ul{
 li{
     display: inline;
     margin:0;
-    /* text-align: center; */
+    text-align: center;
     width: 100%;
     padding: 0px 10px;
 }
 body {
-	background-image: url('../gambar/Beranda\ fix.png');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url('Gambar1.png');
 	background-attachment: fixed;
-    /* text-align: center; */
-    overflow-x: hidden;
+    text-align: center;
 }
 .button{
     background:#77b255 ;
@@ -59,67 +55,63 @@ body {
     margin: 0;
     float:left;
     padding-top: 10px;
-    padding-left: 6%;
+    padding-left: 15%;
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.about{
+	width: 85%;
+	color: black;
+	font-size: 14pt;
+	text-align: justify;
+	padding: 3%;
+	margin-left: 5%;
+}
+.story{
+	width: 55%;
+	margin-left: 23%;
+	background-color:#77b255;
+	border-radius: 15px;
+}
+.foto{
+    width: 455px;
+    height: 340px;
+    margin-left: 32%;
+    margin-top: -20px;
 }
 .Kontak{
     background: #4a7e1f;
     width: 100%;
     height: 60px;
     margin-top: 32%;
-    padding-left: 43%;
+    padding-left: -40px;
 }
 .Kontak a img{
-    padding-top: 15px;
     height: 30px;
     width: 30px;
+    margin: auto;
+    list-style-position: inside;
+    padding: 10px;
+    margin: 0;
 }
-/* .fb{
-    position: relative;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-    padding-left:0px;
+.gabung{
+    display: inline-block;
+    margin-right: 440px;
+    padding: 5px;
 }
-.ig{
-    position: relative;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-    padding-left:0px;
-}
-.twt{
-    position: relative;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-    padding-left:0px;
-}
-.google{
-    position: relative;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-    margin-left: 0%;
-}
-.yt{
-    position: relative;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-    padding-left:0px;
-} */
 footer{
 	background: #FFDE59;
 	width: 100%;
 	height: 30px;
 	text-align: center;
     bottom: 0;
-    position: fixed;
+    position: static;
 }
 .footer2{
 	padding-top: 5px;
 	font-size: 18px;
 	color: black;
 }
-
-
