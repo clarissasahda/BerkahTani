@@ -39,7 +39,7 @@ li{
     padding: 0px 10px;
 }
 body {
-	background-image: url('../Baru/gambar/Beranda fix.png');
+	background-image: url('Beranda fix.png');
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;

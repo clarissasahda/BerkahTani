@@ -4,7 +4,7 @@
     box-sizing: border-box;
     }
 body{
-    background-image: url("../gambar/Gambar1.png");
+    background-image: url("Gambar1.png");
     background-attachment: fixed;
 }
 h1{
@@ -58,7 +58,7 @@ li{
     width: 100%;
     padding: 0px 10px;
 }
-.tani2{
+.tani3{
     width: 435px;
     height: 350px;
     margin-top: 30px;
@@ -68,7 +68,7 @@ li{
     padding: 10px;
     background-color: #ffffff;
 }
-.Kiat2{
+.Kiat3{
     margin:30px;
     padding: 10px;
     display: inline-block;
