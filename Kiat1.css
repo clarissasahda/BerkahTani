@@ -24,10 +24,11 @@ img{
 }
 
 nav{
-    display: block;
+    display: flexbox;
     margin: 0;
     height: 60px;
     padding: 10px 30px;
+    justify-content: space-around;
     background-color: #FFDE59;
 }
 ul{
@@ -36,12 +37,14 @@ ul{
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
 }
 .cari{
     margin: 0;
     float:left;
     padding-top: 10px;
     padding-left: 15%;
+    justify-content: space-around;
 }
 .button1{
     background:#77b255 ;
@@ -87,9 +90,49 @@ footer{
     text-align: center;
     bottom: 0;
     position: static;
+    display: flex;
+    justify-content: space-around;
 }
 .footer2{
     padding-top: 5px;
     font-size: 18px;
     color: black;
+}
+@media screen and (max-width: 460px){
+    h1{
+        font-size: x-large;
+    }
+    img {
+        width: 27%;
+        height: 50%;
+    }
+    nav{
+        height: 80px;
+    }
+    nav ul li{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .search{
+        font-size: 14px;
+    }
+    .tani1{
+        width: 280px;
+        height: 180px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .Kiat1{
+        margin:30px;
+        padding: 10px;
+        width: 390px;
+        margin-left: 23px;
+        font-size: medium;
+    }
+    .Kiat1 h2{
+        font-size: 20px;
+    }
+    .footer2{
+        font-size: medium;
+    }
 }

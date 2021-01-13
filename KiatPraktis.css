@@ -16,17 +16,18 @@ h1{
 }
 img{
     width: 10%;
-    height: 100%;
+    height: 150%;
     margin-top: -10px;
     margin-left: auto;
     padding-left: 10px;
     float: left;  
 }
 nav{
-    display: block;
+    display: flexbox;
     margin: 0;
     height: 60px;
     padding: 10px 30px;
+    justify-content: space-around;
     background-color: #FFDE59;
 }
 ul{
@@ -35,12 +36,14 @@ ul{
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
 }
 .cari{
     margin: 0;
     float:left;
     padding-top: 10px;
     padding-left: 15%;
+    justify-content: space-around;
 }
 .button1{
     background:#77b255 ;
@@ -54,7 +57,7 @@ li{
     display: inline;
     margin:0;
     text-align: center;
-    width: 100%;
+    width: 150%;
     padding: 0px 10px;
 }
 footer{
@@ -128,4 +131,89 @@ footer{
 .tani9{
     width: 265px;
     height: 180px;
+}
+@media screen and (max-width: 460px){
+    h1{
+        font-size: x-large;
+    }
+    img {
+        width: 27%;
+        height: 50%;
+    }
+    nav{
+        height: 80px;
+    }
+    nav ul li{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .cari{
+        font-size: 14px;
+    }
+    .row {
+        margin: 0;
+    }
+    .column{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .card {
+        padding: 25px;
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        background-color: #ffffff;
+        margin-right: 50px;
+    }
+    .tani1{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani2{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani3{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani4{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani5{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani6{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani7{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani8{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .tani9{
+        width: 280px;
+        height: 150px;
+        padding-right: 40px;
+    }
+    .footer2{
+        font-size: medium;
+    }
+    .card a{
+        font-size: medium;
+    }
 }

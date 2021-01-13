@@ -19,10 +19,11 @@ img{
     float: left;
 }
 nav{
-    display: block;
+    display: flexbox;
     margin: 0;
     height: 40px;
     padding: 10px 30px;
+    justify-content: space-around;
     background-color: #FFDE59;
 }
 ul{
@@ -31,12 +32,14 @@ ul{
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
 }
 .cari{
     margin: 0;
     float:left;
     padding-top: 10px;
     padding-left: 15%;
+    justify-content: space-around;
 }
 .button1{
     background:#77b255 ;
@@ -54,12 +57,9 @@ li{
     padding: 0px 10px;
 }
 body {
-    background: url("Gambar1.png");
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url("Gambar1.png");
 	background-attachment: fixed;
-	text-align: center;
+    text-align: center;
 }
 
 /* Tampilan Daftar */
@@ -86,3 +86,35 @@ h2{
     margin: 25px 500px 0px 500px;
     border-radius: 5px;
 }
+@media screen and (max-width: 460px){
+    h1{
+        font-size: x-large;
+    }
+    img {
+        width: 25%;
+        height: 50%;
+    }
+    nav{
+        height: 60px;
+    }
+    nav ul li{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .search{
+        font-size: 14px;
+    }
+    form{
+        margin: 0px 50px 75px 50px;
+        padding: 20px 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+    h2{
+        margin: 25px 25px 0px 135px;
+        width: 160px;
+        font-size: medium;
+    }
+
+}
+
