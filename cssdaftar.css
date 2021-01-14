@@ -67,8 +67,12 @@ form{
     text-align: justify;
     font-size: medium;
     display: block;
-    margin: 0px 400px 75px 400px;
-    padding: 20px 170px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23vw;
+    padding: 20px 5px 20px 80px;
     background-color: #FFDE59;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -83,7 +87,8 @@ h2{
     display: block;
     padding: 5px;
     background-color: #77b255;
-    margin: 25px 500px 0px 500px;
+    margin: 25px auto 0 auto;
+    width: 15vw;
     border-radius: 5px;
 }
 @media screen and (max-width: 460px){
@@ -99,16 +104,17 @@ h2{
     }
     nav ul li{
         padding: 5px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .search{
-        font-size: 14px;
+        font-size: 12px;
     }
     form{
-        margin: 0px 50px 75px 50px;
-        padding: 20px 80px;
+        margin: 0px 68px 30px 68px;
+        padding: 25px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 15px;
+        width: 250px;
     }
     h2{
         margin: 25px 25px 0px 135px;

@@ -145,10 +145,10 @@ footer{
     }
     nav ul li{
         padding: 5px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .cari{
-        font-size: 14px;
+        font-size: 12px;
     }
     .row {
         margin: 0;
@@ -164,6 +164,9 @@ footer{
         width: 300px;
         background-color: #ffffff;
         margin-right: 50px;
+    }
+    #kp{
+        font-size: 14px;
     }
     .tani1{
         width: 280px;
