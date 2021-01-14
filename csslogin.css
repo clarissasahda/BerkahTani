@@ -19,10 +19,11 @@ img {
     float: left;
 }
 nav{
-    display: block;
+    display: flexbox;
     margin: 0;
     height: 40px;
     padding: 10px 30px;
+    justify-content: space-around;
     background-color: #FFDE59;
 }
 ul{
@@ -31,6 +32,7 @@ ul{
     float:right;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
 }
 li{
     display: inline;
@@ -40,23 +42,21 @@ li{
     padding: 0px 10px;
 }
 body {
-    background: url("Gambar1.png") no-repeat fixed center;
-    background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url("Gambar1.png");
 	background-attachment: fixed;
-	text-align: center;
+    text-align: center;
 }
 .search{
     margin: 0;
     float:left;
     padding-top: 10px;
-    padding-left: 6%;
+    padding-left: 15%;
+    justify-content: space-around;
 }
 h2{
-    display: block;
     padding: 5px;
     background-color: #77b255;
+    background-attachment: fixed;
     margin: 30px 500px 0px 500px;
     border-radius: 10px;
     margin-top: 5%;
@@ -103,3 +103,45 @@ tr{
 .Daftar{
     text-align: center;
 }
+
+@media screen and (max-width: 460px){
+    h1{
+        font-size: x-large;
+    }
+    img {
+        width: 25%;
+        height: 50%;
+    }
+    nav{
+        height: 60px;
+    }
+    nav ul li{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .search{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    h2{
+        background-color: #77b255;
+        margin: 30px 500px 0px 500px;
+        border-radius: 10px;
+        width: 35%;
+        height: 10%;
+        margin-left: 32%;
+        font-size: medium;
+        margin-top: 20%;
+    }  
+    .masuk{
+        text-align: left;
+        background-color: #FFDE59;
+        width: 76%;
+        margin-left: 12%;
+        font-size: small;
+    }
+    td{
+        font-size: small;
+    }
+}
+

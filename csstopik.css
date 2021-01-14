@@ -40,13 +40,9 @@ li{
     padding: 0px 10px;
 }
 body {
-	background-image: url('Gambar1.png');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url("Gambar1.png");
 	background-attachment: fixed;
     text-align: center;
-    overflow-x: hidden;
 }
 .button{
     background:#77b255 ;
@@ -143,7 +139,6 @@ h2{
 	margin-left: 25%;
 	background-color: #77b255;
 }
-
 .tkomen{
 	color: black;
 	text-align: center;
@@ -185,8 +180,9 @@ footer{
 }
 .container{
     background-color:  white;
-    margin :5% auto 15% auto;
+    margin :50px auto 15% auto;
     width: 60%;
+    font-size: smaller;
 }
 @keyframes zoomin {
     from{
@@ -231,6 +227,76 @@ th{
 td{
     padding: 7px;
 }
+@media screen and (max-width: 460px){
+    h1{
+        font-size: x-large;
+    }
+    img {
+        width: 25%;
+        height: 50%;
+    }
+    nav{
+        height: 60px;
+    }
+    nav ul li{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .search{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    h2{
+        margin-top: 8%;
+        text-align: center;
+        color: black;
+        font-family: 'Crimson Text', serif;
+        font-size: medium;
+    }
+    .berita1{
+        margin-left: 15%;
+        width: 75%;
+        font-size: small;
+    }
+    .berita2{
+        margin-left: 15%;
+        width: 75%;
+        font-size: small;
+    }
+    .komentar{
+        width: 50%;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 25%;
+        background-color: #77b255;
+    }
+    .komentar{
+        width: 50%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 25%;
+        background-color: #77b255;
+        font-size: small;
+    }
+    .tkomen{
+        font-size: small;
+    }
+    table{
+        padding: 5xpx;
+    }
+    .footer2{
+        padding-top: 5px;
+        font-size: small;
+        color: black;
+    }
+    .container{
+        background-color:  white;
+        margin : 30% auto 50px auto;
+        width: 95%;
+        height: 20%;
+        font-size: x-small;
+    }
+}
 
 
 
@@ -250,6 +316,4 @@ td{
 
 
 
-
-[
 

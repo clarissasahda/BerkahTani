@@ -39,7 +39,11 @@ li{
     padding: 0px 10px;
 }
 body {
+<<<<<<< HEAD
 	background-image: url("Gambar1.png");
+=======
+	background-image: url('Gambar1.png');
+>>>>>>> ff03ca64a04997101b422f0ec37db81da2d487a8
 	background-attachment: fixed;
     text-align: center;
 }
